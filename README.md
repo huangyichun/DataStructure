@@ -1,5 +1,5 @@
 # DataStructure
-常用数据结构:
+常用数据结构与算法:
 
  - 二叉查找树的实现，包括元素插入，删除，查找，修改等方法
     博客地址:https://www.zybuluo.com/huangyichun/note/739561
