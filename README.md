@@ -7,3 +7,4 @@
     博客地址: https://www.zybuluo.com/huangyichun/note/740213
  - Manacher算法: 实现字符串中查找回最长文子串的长度
  - KMP算法: 判断一个字符串是否是另一个字符串的子串
+ - 全排列算法: 递归实现和非递归实现
