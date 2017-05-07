@@ -17,16 +17,14 @@ public class InsertSort {
         if(array==null || array.length == 0)
             return;
 
-        for(int i=1; i<array.length; i++){
-            int j=i-1;
-            //找到前i个中第一个小于等于i的数的前一个
-            while(j >=0 && array[j] > array[i])
-                --j;
-            int temp = array[i];//保存第i个数
-            for(int k=0; k<i-j-1; k++){//将数组后移
-                array[i-k] = array[i-k-1];
+        for(int i=0; i<array.length; i++){
+            for(int j=i; j>=1; --j){
+                if(array[j] < array[j-1]){
+                    int temp = array[j];
+                    array[j] = array[j-1];
+                    array[j-1] = temp;
+                }
             }
-            array[j+1] = temp;
         }
     }
 }
