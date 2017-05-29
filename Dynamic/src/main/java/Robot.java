@@ -13,4 +13,44 @@ public class Robot {
             return 1;
         return countWays(x-1, y) + countWays(x, y-1);
     }
+
+    /**
+     * 采用动态规划
+     * @param x
+     * @param y
+     * @return
+     */
+    public int countWays_3(int x, int y){
+        int[][] dp = new int[x][y];
+        for(int i=1; i< x; ++i){
+            dp[i][0] = 1;
+        }
+        for(int i=1; i <y; ++i){
+            dp[0][i] = 1;
+        }
+        for(int i=1; i< x; ++i){
+            for(int j=1; j<y; ++j){
+                dp[i][j] = dp[i][j-1] + dp[i-1][j];
+            }
+        }
+        return dp[x-1][y-1];
+    }
+
+    /**
+     * 使用数学计算法
+     * @param x
+     * @param y
+     * @return
+     */
+    public int countWays_2(int x, int y){
+        return fab(x + y) / (fab(x) * fab(y));
+    }
+
+    public int fab(int n){
+        int sum = 1;
+        for(int i=2; i<=n; ++i){
+            sum *= i;
+        }
+        return sum;
+    }
 }
