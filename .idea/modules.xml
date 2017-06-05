@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BST.iml" filepath="$PROJECT_DIR$/.idea/modules/BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BST_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BST_main.iml" group="BST" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BST_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BST_test.iml" group="BST" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataStructure.iml" filepath="$PROJECT_DIR$/.idea/modules/DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dynamic/Dynamic.iml" filepath="$PROJECT_DIR$/.idea/modules/Dynamic/Dynamic.iml" group="Dynamic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DynamicProgramming/DynamicProgramming.iml" filepath="$PROJECT_DIR$/.idea/modules/DynamicProgramming/DynamicProgramming.iml" group="DynamicProgramming" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dynamic/Dynamic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Dynamic/Dynamic_main.iml" group="Dynamic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dynamic/Dynamic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Dynamic/Dynamic_test.iml" group="Dynamic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KMP/KMP.iml" filepath="$PROJECT_DIR$/.idea/modules/KMP/KMP.iml" group="KMP" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KMP/KMP_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KMP/KMP_main.iml" group="KMP" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KMP/KMP_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KMP/KMP_test.iml" group="KMP" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Manacher/Manacher.iml" filepath="$PROJECT_DIR$/.idea/modules/Manacher/Manacher.iml" group="Manacher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Manacher/Manacher_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Manacher/Manacher_main.iml" group="Manacher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Manacher/Manacher_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Manacher/Manacher_test.iml" group="Manacher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Permutation/Permutation.iml" filepath="$PROJECT_DIR$/.idea/modules/Permutation/Permutation.iml" group="Permutation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Permutation/Permutation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Permutation/Permutation_main.iml" group="Permutation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Permutation/Permutation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Permutation/Permutation_test.iml" group="Permutation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RB_Tree/RB_Tree.iml" filepath="$PROJECT_DIR$/.idea/modules/RB_Tree/RB_Tree.iml" group="RB_Tree" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RB_Tree/RB_Tree_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RB_Tree/RB_Tree_main.iml" group="RB_Tree" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RB_Tree/RB_Tree_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RB_Tree/RB_Tree_test.iml" group="RB_Tree" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sort/Sort.iml" filepath="$PROJECT_DIR$/.idea/modules/Sort/Sort.iml" group="Sort" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sort/Sort_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Sort/Sort_main.iml" group="Sort" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sort/Sort_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Sort/Sort_test.iml" group="Sort" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StringOperate.iml" filepath="$PROJECT_DIR$/.idea/modules/StringOperate.iml" group="StringOperate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StringOperate/StringOperate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/StringOperate/StringOperate_main.iml" group="StringOperate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StringOperate/StringOperate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/StringOperate/StringOperate_test.iml" group="StringOperate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tree/Tree.iml" filepath="$PROJECT_DIR$/.idea/modules/Tree/Tree.iml" group="Tree" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tree/Tree_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tree/Tree_main.iml" group="Tree" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tree/Tree_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tree/Tree_test.iml" group="Tree" />
+    </modules>
+  </component>
+</project>

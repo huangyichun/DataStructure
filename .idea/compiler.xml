@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="BST_main" target="1.8" />
+      <module name="BST_test" target="1.8" />
+      <module name="Dynamic_main" target="1.8" />
+      <module name="Dynamic_test" target="1.8" />
+      <module name="DynamicProgramming_main" target="1.8" />
+      <module name="DynamicProgramming_test" target="1.8" />
+      <module name="KMP_main" target="1.8" />
+      <module name="KMP_test" target="1.8" />
+      <module name="Manacher_main" target="1.8" />
+      <module name="Manacher_test" target="1.8" />
+      <module name="Permutation_main" target="1.8" />
+      <module name="Permutation_test" target="1.8" />
+      <module name="RB_Tree_main" target="1.8" />
+      <module name="RB_Tree_test" target="1.8" />
+      <module name="Sort_main" target="1.8" />
+      <module name="Sort_test" target="1.8" />
+      <module name="StringOperate_main" target="1.8" />
+      <module name="StringOperate_test" target="1.8" />
+      <module name="Tree_main" target="1.8" />
+      <module name="Tree_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

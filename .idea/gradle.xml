@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/developmentUtils/gradle-3.1" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Dynamic" />
+            <option value="$PROJECT_DIR$/DynamicProgramming" />
+            <option value="$PROJECT_DIR$/KMP" />
+            <option value="$PROJECT_DIR$/Manacher" />
+            <option value="$PROJECT_DIR$/Permutation" />
+            <option value="$PROJECT_DIR$/RB_Tree" />
+            <option value="$PROJECT_DIR$/Sort" />
+            <option value="$PROJECT_DIR$/StringOperate" />
+            <option value="$PROJECT_DIR$/Tree" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/BST" />
+        <option name="gradleHome" value="D:/developmentUtils/gradle-3.1" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/BST" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

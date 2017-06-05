@@ -1,8 +1,6 @@
 import org.junit.Test;
 
-/**
- * Created by huangyichun on 2017/5/5.
- */
+
 public class KMP {
 
     @Test
