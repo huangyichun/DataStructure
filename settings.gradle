@@ -7,4 +7,5 @@ include 'Dynamic'
 include 'Tree'
 include 'DynamicProgramming'
 include 'StringOperate'
+include 'LeedCode'
 
