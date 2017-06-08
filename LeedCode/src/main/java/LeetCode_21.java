@@ -25,25 +25,25 @@ public class LeetCode_21 {
         //第一行
         for (int i = 0; i < board[0].length; ++i) {
             if(board[0][i] == 'O'){
-                changeOToY(board, 0, i);
+                changeOToY(board, new Point(0, i));
             }
         }
         //第一列
         for (int i = 0; i < board.length; ++i) {
             if(board[i][0] == 'O'){
-                changeOToY(board, i, 0);
+                changeOToY(board, new Point(i, 0));
             }
         }
         //最后一列
         for(int i = 0; i < board.length; ++i) {
             if(board[i][board[0].length-1] == 'O'){
-                changeOToY(board, i, board[0].length-1);
+                changeOToY(board,  new Point(i, board[0].length-1));
             }
         }
         //最后一行
         for(int i = 0; i < board[0].length; ++i) {
             if(board[board.length-1][i] == 'O'){
-                changeOToY(board, board.length-1, i);
+                changeOToY(board, new Point(board.length-1, i));
             }
         }
 
@@ -57,7 +57,7 @@ public class LeetCode_21 {
             }
         }
     }
-    public void changeOToY(char[][] board, int x, int y) {
+   /* public void changeOToY(char[][] board, int x, int y) {
         for (int i = 0; i < offset.length; ++i) {
             int offsetX = x + offset[i][0];
             int offsetY = y + offset[i][1];
@@ -67,9 +67,9 @@ public class LeetCode_21 {
                 changeOToY(board, offsetX, offsetY);
             }
         }
-    }
+    }*/
 
-    /*public void changeOToY(char[][] board, int x,  int y) {
+    public void changeOToY(char[][] board, Point point) {
         LinkedList<Point> queue = new LinkedList<>();
         queue.offer(point);
         while (!queue.isEmpty()) {
@@ -84,8 +84,21 @@ public class LeetCode_21 {
                 }
             }
         }
-    }*/
+    }
+    class Point {
+        int x;
+        int y;
 
+        Point() {
+            x = 0;
+            y = 0;
+        }
+
+        Point(int a, int b) {
+            x = a;
+            y = b;
+        }
+    }
 }
 
 
