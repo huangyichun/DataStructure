@@ -28,9 +28,6 @@ public class LeetCode_24 {
         if (start.equals(end)) {
             return 1;
         }
-        HashSet<String> traverSet = new HashSet<>();//保存已遍历过的字符串
-        traverSet.add(start);
-
         Queue<String> queue = new LinkedList<>();
         queue.offer(start);
         int num = 1;
@@ -39,33 +36,27 @@ public class LeetCode_24 {
             int length = queue.size();
             for (int i = 0; i < length; ++i) {
                 String str = queue.poll();
-                for (String s : getNextWords(str, dict, traverSet)) {
-                    if (s.equals(end)) {
-                        return num;
+                for (char c = 'a'; c <= 'z'; ++c) {
+                    for (int j = 0; j < str.length(); ++j) {
+                        if (str.charAt(j) == c) {
+                            continue;
+                        }
+                        char[] chars = str.toCharArray();
+                        chars[j] = c;
+                        String newString = String.valueOf(chars);
+                        if (dict.contains(newString)) {
+                            queue.offer(newString);
+                            dict.remove(newString);
+                        }
+                        if(newString.equals(end)){
+                            return num;
+                        }
                     }
-                    queue.offer(s);
                 }
+
             }
         }
         return 0;
     }
 
-    public List<String> getNextWords(String str, HashSet<String> dict, HashSet<String> traverSet) {
-        List<String> newWordsList = new ArrayList<>();
-        for (char c = 'a'; c <= 'z'; ++c) {
-            for (int i = 0; i < str.length(); ++i) {
-                if (str.charAt(i) == c) {
-                    continue;
-                }
-                char[] chars = str.toCharArray();
-                chars[i] = c;
-                String newString = String.valueOf(chars);
-                if (dict.contains(newString) && !traverSet.contains(newString)) {
-                    newWordsList.add(newString);
-                    traverSet.add(newString);
-                }
-            }
-        }
-        return newWordsList;
-    }
 }
