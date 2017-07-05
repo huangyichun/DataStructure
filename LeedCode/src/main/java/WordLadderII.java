@@ -20,7 +20,7 @@ import java.util.*;
  * All words have the same length.
  * All words contain only lowercase alphabetic characters.
  */
-public class LeetCode_24 {
+public class WordLadderII {
     public int ladderLength(String start, String end, HashSet<String> dict) {
         if (dict == null) {
             return 0;

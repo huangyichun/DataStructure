@@ -7,7 +7,7 @@
  * 快慢指针找到中间位置，逆序中间位置之后的节点
  * 交替插入
  */
-public class LeetCode_8 {
+public class ReorderList {
 
     public void reorderList(ListNode head) {
         if(head == null || head.next == null){

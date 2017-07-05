@@ -1,7 +1,7 @@
 /**
  * Sort a linked list in O(n log n) time using constant space complexity.
  */
-public class LeetCode_4 {
+public class SortList {
 
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {

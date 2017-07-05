@@ -3,7 +3,7 @@
  * random pointer which could point to any node in the list or null.
  * Return a deep copy of the list.
  */
-public class LeetCode_13 {
+public class CopyListWithRandomPointer {
 
     public RandomListNode copyRandomList(RandomListNode head) {
         if(head == null || (head.next == null && head.random == null)) {

@@ -14,7 +14,7 @@ import java.util.List;
  * The root-to-leaf path1->3represents the number13.
  * Return the sum = 12 + 13 =25.
  */
-public class LeetCode_22 {
+public class SumRootToLeafNumbers {
 
     public int sumNumbers(TreeNode root) {
         if(root == null) {

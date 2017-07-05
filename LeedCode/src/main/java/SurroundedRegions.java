@@ -20,7 +20,7 @@ import java.util.List;
  * 思路:从矩阵的四个边查找字符为’O'的结点
  * 然后从该节点出发使用广度优先搜素，将找到的节点改为'F'
  */
-public class LeetCode_21 {
+public class SurroundedRegions {
 
     private static final int[][] offset = new int[][]{{-1, 0},{0, -1},{1, 0},{0, 1}};
     private static final int FREE = 'F';

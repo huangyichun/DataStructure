@@ -3,7 +3,7 @@
  * Follow up:
  * Can you solve it without using extra space?
  */
-public class LeetCode_10 {
+public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
         ListNode quick = head;

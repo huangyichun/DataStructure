@@ -9,7 +9,7 @@
  * <p>
  * Return6.
  */
-public class LeetCode_27 {
+public class BinaryTreeMaximumPathSum {
 
     int maxValue;
     public int maxPathSum(TreeNode root) {

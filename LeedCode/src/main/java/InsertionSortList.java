@@ -1,7 +1,7 @@
 /**
  * Sort a linked list using insertion sort.
  */
-public class LeetCode_5 {
+public class InsertionSortList {
     public ListNode insertionSortList(ListNode head) {
         if (head == null || head.next == null) {
             return head;

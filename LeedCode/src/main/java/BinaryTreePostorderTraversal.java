@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * Note: Recursive solution is trivial, could you do it iteratively?
  * 非递归遍历后序遍历二叉树
  */
-public class LeetCode_6 {
+public class BinaryTreePostorderTraversal {
 
     public ArrayList<Integer> postorderTraversal(TreeNode root) {
         ArrayList<Integer> list = new ArrayList<>();

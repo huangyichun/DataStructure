@@ -4,7 +4,7 @@
  * For example, given s ="aab",
  * Return1since the palindrome partitioning["aa","b"]could be produced using 1 cut.
  */
-public class LeetCode_19 {
+public class PalindromePartitioningII {
 
     public int minCut(String s) {
         int[] dp = new int[s.length() + 1];

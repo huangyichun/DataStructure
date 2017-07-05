@@ -10,7 +10,7 @@ import java.util.Set;
  * dict =["cat", "cats", "and", "sand", "dog"].
  * A solution is["cats and dog", "cat sand dog"].
  */
-public class LeetCode_11 {
+public class WordBreakII {
     public ArrayList<String> wordBreak(String s, Set<String> dict) {
         if(!isWordBreak(s, dict)){
             return new ArrayList<String>();

@@ -8,7 +8,7 @@ import java.util.Set;
  * dict =["leet", "code"].
  * Return true because"leetcode"can be segmented as"leet code".
  */
-public class LeetCode_12 {
+public class WordBreak {
     public boolean wordBreak(String s, Set<String> dict) {
         boolean[] dp = new boolean[s.length() + 1];
         dp[0] = true;

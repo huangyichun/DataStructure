@@ -5,7 +5,7 @@
  * Your algorithm should have a linear runtime complexity.
  * Could you implement it without using extra memory?
  */
-public class LeetCode_14 {
+public class SingleNumberII {
     public int singleNumber(int[] A) {
         int sigle = 0;
 

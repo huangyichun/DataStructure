@@ -5,7 +5,7 @@ import java.util.Map;
  * Given n points on a 2D plane, find the maximum number of
  * points that lie on the same straight line.
  */
-public class LeetCode_3 {
+public class MaxPointsOnALine {
 
     public int maxPoints(Point[] points) {
         if (points == null || points.length == 0) {

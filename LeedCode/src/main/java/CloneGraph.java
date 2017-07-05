@@ -5,7 +5,7 @@ import java.util.LinkedList;
  * Clone an undirected graph.
  * Each node in the graph contains alabeland a list of itsneighbors.
  */
-public class LeetCode_18 {
+public class CloneGraph {
 
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         if (node == null) {

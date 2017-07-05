@@ -11,7 +11,7 @@
  * question to ask during an interview.
  * For the purpose of this problem, we define empty string as valid palindrome.
  */
-public class LeetCode_26 {
+public class ValidPalindrome {
     public boolean isPalindrome(String s) {
         if (s.isEmpty()) {
             return true;

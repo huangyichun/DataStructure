@@ -4,7 +4,7 @@ import java.util.LinkedList;
 /**
  * 非递归前序遍历
  */
-public class LeetCode_7 {
+public class BinaryTreePreorderTraversal {
 
     public ArrayList<Integer> preorderTraversal(TreeNode root) {
         ArrayList<Integer> list = new ArrayList<>();

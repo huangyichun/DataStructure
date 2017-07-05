@@ -4,7 +4,7 @@
  * Follow up:
  * Can you solve it without using extra space?
  */
-public class LeetCode_9 {
+public class LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head;
         ListNode quick = head;

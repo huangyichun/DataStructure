@@ -16,7 +16,7 @@ import java.util.ArrayList;
  *
  * 3. 全部结束之后，返回 最终的结果集合 result
  */
-public class LeetCode_20 {
+public class PalindromePartitioning {
 
     private ArrayList<ArrayList<String>> result = new ArrayList<>();
 

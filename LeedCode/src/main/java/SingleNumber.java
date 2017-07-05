@@ -12,7 +12,7 @@
  * 用twos来记录只出现过两次的bits，ones&twos实际上就记录了出现过三次的bits，
  * 这时候我们来模拟进行出现3次就抵消为0的操作，抹去ones和twos中都为1的bits。
  */
-public class LeetCode_15 {
+public class SingleNumber {
     public int singleNumber_2(int[] A) {
 
         int[] bitNume = new int[32];

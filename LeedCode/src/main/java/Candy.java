@@ -7,7 +7,7 @@
  *
  * 思路：左右分别扫描
  */
-public class LeetCode_16 {
+public class Candy {
 
     public int candy(int[] ratings) {
         int[] res = new int[ratings.length];
