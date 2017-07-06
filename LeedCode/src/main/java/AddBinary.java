@@ -9,12 +9,6 @@
  */
 public class AddBinary {
 
-    public static void main(String[] args) {
-        StringBuilder builder = new StringBuilder("huang");
-        builder.append("yichun");
-
-        System.out.println(builder.toString());
-    }
     public String addBinary(String a, String b) {
         if (a.length() < b.length()) {//将长的字符串赋值给a
             String temp = a;
