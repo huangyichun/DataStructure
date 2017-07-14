@@ -1,5 +1,3 @@
-import java.util.concurrent.locks.AbstractQueuedSynchronizer;
-
 /**
  * 两个有序数组求中位数
  */
