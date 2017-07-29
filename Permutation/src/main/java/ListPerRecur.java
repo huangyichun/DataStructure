@@ -7,6 +7,10 @@ import java.util.List;
 
 /**
  * List集合全排列递归实现
+ *
+ * 思路:通过交换两个数组位置实现全排列
+ *
+ *
  */
 public class ListPerRecur {
 
