@@ -1,7 +1,7 @@
 # DataStructure
 常用数据结构与算法:
   
- - 新增LeetCode算法题60题
+ - 新增LeetCode算法题50题
  
  - 二叉查找树的实现，包括元素插入，删除，查找，修改等方法</br>
        &nbsp; &nbsp; &nbsp; &nbsp;博客地址:https://www.zybuluo.com/huangyichun/note/739561</br>
